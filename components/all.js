@@ -56,3 +56,12 @@ document.addEventListener("DOMContentLoaded", function () {
         overflow.classList.remove('remove-scroll');
     }
 }, false);
+
+/*-------------------------------------------------------------------------------*/
+/*---------------------------Click imgae to show---------------------------------*/
+/*-------------------------------------------------------------------------------*/
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = imgs.src;
+    expandImg.parentElement.style.display = "block";
+}
